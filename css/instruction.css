@@ -1,0 +1,26 @@
+
+#content{
+	width:500px;
+	height:400px;
+	margin-top:5px;
+	-moz-box-shadow: 3px 3px 4px #C5BABA;    
+	-webkit-box-shadow: 3px 3px 4px #C5BABA;
+	box-shadow: 8px 8px 4px #C5BABA;
+	font-family: 'Gorditas', cursive;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 155px;
+
+	opacity: 0.5; 
+	filter:alpha(opacity=50); 
+	-moz-opacity:0.5; 
+	-khtml-opacity: 0.5; 
+	background-color: red;
+
+	color:white;
+	font-weight: bold;
+	padding-top: 50px;
+}
+
+
+

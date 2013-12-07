@@ -1,0 +1,65 @@
+
+#main{
+	border:1px solid;
+	width:770px;
+	height:730px;
+	margin-top:5px;
+	-moz-box-shadow: 3px 3px 4px #C5BABA;    
+	-webkit-box-shadow: 3px 3px 4px #C5BABA;
+	box-shadow: 8px 8px 4px #C5BABA;  
+	background: url('../image/back.jpg');
+	background-repeat: repeat;
+	font-family: 'Gorditas', cursive;
+}
+
+
+.banner{
+	width: 190px;
+height: 51px;
+background-color: #d5212c;
+-moz-box-shadow: 3px 3px 4px #C5BABA;
+-webkit-box-shadow: 3px 3px 4px #C5BABA;
+box-shadow: 0px 8px 4px #C5BABA;
+z-index: 100;
+position: absolute;
+	font-size: 42px;
+	text-align: center;
+}
+
+#upleft{
+	margin-top: 95px;
+}
+
+#downright{
+	right: 21px;
+margin-top: 555px;
+}
+
+#daocha1{
+	position: absolute;
+top: 11px;
+margin-top: 41px;
+z-index: 5;
+margin-left: 53px;
+}
+
+#daocha2{
+	float: right;
+margin-top: 502px;
+margin-right: 55px;
+z-index: 5;
+}
+
+#title{
+	color:white;
+	font-weight: bold;
+}
+
+#downright a{
+	color:white;
+	text-decoration: none;
+}
+
+#downright a:hover{
+	color:#2e2118;
+}

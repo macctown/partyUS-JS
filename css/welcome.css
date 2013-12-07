@@ -1,0 +1,52 @@
+#logo {
+	border: 1px solid;
+	width: 50%;
+	height: 290px;
+	margin-top: 52px;
+}
+
+#main{
+	border:1px solid;
+	width:740px;
+	height:740px;
+	margin-top:5px;
+	-moz-box-shadow: 3px 3px 4px #C5BABA;    
+	-webkit-box-shadow: 3px 3px 4px #C5BABA;
+	box-shadow: 8px 8px 4px #C5BABA;  
+}
+
+
+#mainpic{
+vertical-align: middle;
+width: 738px;
+height: 739px;
+position: absolute;
+margin-left: -15px;
+}
+
+#title{
+	position: absolute;
+	top: 66px;
+	left: 176px;
+	font-family: 'Gorditas', cursive;
+	font-size: 95px;
+	width: 0;
+}
+
+#start{		margin-bottom: 48px;
+	font-family: 'Gorditas', cursive;
+	position: absolute;
+	bottom: 180px;
+	left: 298px;
+	font-size: 50px;
+	width: 0;
+}
+
+#start a{
+	color:white;
+	text-decoration: none;
+}
+
+#start a:hover{
+	color:#2e2118;
+}

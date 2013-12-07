@@ -1,0 +1,72 @@
+#keyword{
+	border:1px solid;
+	width:160px;
+	height:50px;
+	margin-top:5px;
+	-moz-box-shadow: 3px 3px 4px #C5BABA;    
+	-webkit-box-shadow: 3px 3px 4px #C5BABA;
+	box-shadow: 8px 8px 4px #C5BABA; 
+	font-family: 'Gorditas', cursive;
+	top:219px;
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+}
+body{ text-align:center; } .graph{ width:450px; border:1px solid #F8B3D0; height:25px;} #bar{ display:block; background:#FFE7F4; margin:0 auto;height:100%; text-align:center; } #barNum{ position:absolute; } 
+
+#range{
+	width: 160px;
+height: 50px;
+background-color: #d5212c;
+-moz-box-shadow: 3px 3px 4px #C5BABA;
+-webkit-box-shadow: 3px 3px 4px #C5BABA;
+box-shadow: 0px 8px 4px #C5BABA;
+z-index: 100;
+position: relative;
+	font-size: 30px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	margin-top: 250px;
+	font-family: 'Gorditas', cursive;
+}
+
+#search{
+	width: 160px;
+height: 50px;
+background-color: #d5212c;
+-moz-box-shadow: 3px 3px 4px #C5BABA;
+-webkit-box-shadow: 3px 3px 4px #C5BABA;
+box-shadow: 0px 8px 4px #C5BABA;
+z-index: 100;
+position: relative;
+	font-size: 30px;
+	text-align: center;
+	color:white;
+	font-weight: bold;
+	top: 237px;
+	left: 2px;
+	font-family: 'Gorditas', cursive;
+}
+
+#footer{
+background-color: #d5212c;
+
+	height: 60px;
+width: 632px;
+position: relative;
+top: 660px;
+z-index: 100;
+}
+#coverMap{
+	top: 0;
+	width: 79%;
+	position: absolute;
+	height: 89%;
+	background-color: #000000;
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	display: block;
+}
+
