@@ -6,15 +6,17 @@
 	$city=$_POST["city"];    
 	$id=$_POST["id"];   
 	$userbatch="https://api.renren.com/v2/user/batch?access_token=".$token."&userIds=".$userIds;    
-    
+    	
+    	//调取api获取已选择的好友信息
 	$friend_info=file_get_contents($userbatch);
 	$arr=json_decode($friend_info, TRUE);
 
 	//echo "<pre>";
 	//var_dump($arr);exit;
-	//引入商家类文件
+	//引入用户类文件
 	require_once('People.php');
 	
+	//每个用户构造成新一个对象，存在list中，待用
 	$peopleList=array();
 	foreach ($arr['response'] as $value) {
 		$i=0;
